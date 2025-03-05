@@ -29,14 +29,13 @@ const Dashboard = () => {
 
         {/* Sidebar Links */}
         <ul className="space-y-3">
-          <li className="flex items-center space-x-4 p-3 hover:bg-blue-600/80 rounded-md cursor-pointer transition-all duration-300 ease-in-out">
-            <FaHome className="text-2xl " />
-            <Link to="/Admin/Dashboard">
-              <span className="text-sm">
-                Overview
-              </span>
-            </Link>
-          </li>
+          <Link to="/Admin/Dashboard">
+            <li className="flex items-center space-x-4 p-3 hover:bg-blue-600/80 rounded-md cursor-pointer transition-all duration-300 ease-in-out">
+              <FaHome className="text-2xl " />
+
+              <span className="text-sm">Overview</span>
+            </li>
+          </Link>
 
           <li className="flex items-center space-x-4 p-3  rounded-md cursor-pointer hover:bg-blue-600/80">
             <FaBuilding className="text-2xl text-white" />

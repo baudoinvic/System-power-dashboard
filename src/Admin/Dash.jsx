@@ -79,10 +79,13 @@ const Dash = () => {
               </p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
-              <div className="flex items-center mb-4 justify-center">
-                <FaHandshake className="text-4xl text-teal-500 mr-4" />
-                <h2 className="text-xl font-semibold text-gray-800">
+          </div>
+        
+          <div className="flex justify-center items-center mt-16">
+            <div className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center text-center w-96">
+              <div className="flex items-center mb-4">
+                <FaHandshake className="text-5xl text-teal-500 mr-3" />
+                <h2 className="text-2xl font-semibold text-gray-800">
                   Collaboration & Partnerships
                 </h2>
               </div>
@@ -96,14 +99,14 @@ const Dash = () => {
       </div>
 
       <div className="p-8 bg-gray-50 ">
-        <div className="container mx-auto" style={{ marginTop: "-8rem" }}>
+        <div className="container mx-auto">
           <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-800 text-center mx-auto">
+            <h1 className="text-3xl font-bold text-gray-800 text-center mx-auto ">
               How Data Analysis & Dashboards Helps STEM Power Rwanda
             </h1>
           </div>
 
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid grid-cols-3 gap-6 mt-16">
             {/* Track & Monitor Impact */}
             <div className="bg-white rounded-lg shadow-md p-6">
               <div className="flex items-center mb-4">
