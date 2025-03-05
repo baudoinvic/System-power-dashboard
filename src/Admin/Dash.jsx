@@ -21,23 +21,6 @@ const Dash = () => {
             STEM Power Programs
           </h1>
 
-          {/* <div className="flex justify-end mb-6">
-          <div className="flex space-x-4">
-            <div className="bg-white shadow-sm rounded-lg p-4 text-center">
-              <span className="text-2xl font-bold text-teal-600">6.3K+</span>
-              <p className="text-xs text-gray-500">STUDENTS</p>
-            </div>
-            <div className="bg-white shadow-sm rounded-lg p-4 text-center">
-              <span className="text-2xl font-bold text-teal-600">62%</span>
-              <p className="text-xs text-gray-500">FEMALE</p>
-            </div>
-            <div className="bg-white shadow-sm rounded-lg p-4 text-center">
-              <span className="text-2xl font-bold text-teal-600">4</span>
-              <p className="text-xs text-gray-500">REGIONS</p>
-            </div>
-          </div>
-        </div> */}
-
           <div className="grid grid-cols-3 gap-6">
             <div className="bg-white rounded-lg shadow-md p-6">
               <div className="flex items-center mb-4">
@@ -96,9 +79,8 @@ const Dash = () => {
               </p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <div className="flex items-center mb-4">
-                <div className="text-4xl text-teal-500 mr-4" />
+            <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+              <div className="flex items-center mb-4 justify-center">
                 <FaHandshake className="text-4xl text-teal-500 mr-4" />
                 <h2 className="text-xl font-semibold text-gray-800">
                   Collaboration & Partnerships
@@ -116,7 +98,7 @@ const Dash = () => {
       <div className="p-8 bg-gray-50 ">
         <div className="container mx-auto" style={{ marginTop: "-8rem" }}>
           <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-800">
+            <h1 className="text-3xl font-bold text-gray-800 text-center mx-auto">
               How Data Analysis & Dashboards Helps STEM Power Rwanda
             </h1>
           </div>
