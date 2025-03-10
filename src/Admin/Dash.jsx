@@ -20,7 +20,7 @@ const Dash = () => {
     <>
       <div className="p-8 bg-gray-50 min-h-screen">
         <div className="container mx-auto">
-          <h1 className="text-3xl font-bold text-gray-800 mb-8">
+          <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">
             STEM Power Programs
           </h1>
 
@@ -95,8 +95,10 @@ const Dash = () => {
         </div>
       </div>
 
-    
-      <div className="flex justify-between items-center gap-6 p-4" style={{marginTop: "-15rem"}}>
+      <div
+        className="flex justify-between items-center gap-6 p-4 ml-8 mr-8"
+        style={{ marginTop: "-15rem" }}
+      >
         <div className="flex-1">
           <img
             src={domImage}
