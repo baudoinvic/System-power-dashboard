@@ -21,80 +21,59 @@ const Dash = () => {
             STEM Power Programs
           </h1>
 
-          <div className="grid grid-cols-3 gap-6">
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <div className="flex items-center mb-4">
-                <FaGraduationCap className="text-4xl text-teal-500 mr-4" />
-                <h2 className="text-xl font-semibold text-gray-800">
-                  STEM Education & Training
-                </h2>
-              </div>
-              <p className="text-gray-600 mb-4">
-                Workshops, coding boot camps, mentorship, and career development
-                initiatives. Providing skills in science, technology,
-                engineering, and math to youth across Rwanda.
-              </p>
-              <div className="flex space-x-2">
-                <span className="bg-teal-50 text-teal-600 px-2 py-1 rounded-full text-xs">
-                  Workshops
-                </span>
-                <span className="bg-teal-50 text-teal-600 px-2 py-1 rounded-full text-xs">
-                  Coding Bootcamps
-                </span>
-              </div>
-              <div className="mt-2 space-x-2">
-                <span className="bg-teal-50 text-teal-600 px-2 py-1 rounded-full text-xs">
-                  Mentorship
-                </span>
-                <span className="bg-teal-50 text-teal-600 px-2 py-1 rounded-full text-xs">
-                  Career Development
-                </span>
-              </div>
-            </div>
+       
 
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <div className="flex items-center mb-4">
-                <FaUsers className="text-4xl text-teal-500 mr-4" />
-                <h2 className="text-xl font-semibold text-gray-800">
-                  Youth Empowerment & Inclusion
-                </h2>
-              </div>
-              <p className="text-gray-600">
-                Special focus on underrepresented groups, especially women and
-                girls, to encourage participation in STEM fields.
-              </p>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4">
+  <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300 flex flex-col h-full min-h-[250px]">
+    <div className="flex items-center mb-4">
+      <FaGraduationCap className="text-5xl text-teal-500 mr-4" />
+      <h2 className="text-lg font-semibold text-gray-800">STEM Education & Training</h2>
+    </div>
+    <p className="text-gray-600 mb-4 flex-grow">
+      Workshops, coding boot camps, mentorship, and career development initiatives.
+      Providing skills in science, technology, engineering, and math to youth across Rwanda.
+    </p>
+    <div className="flex flex-wrap gap-2 mt-auto">
+      <span className="bg-teal-50 text-teal-600 px-3 py-1 rounded-full text-xs">Workshops</span>
+      <span className="bg-teal-50 text-teal-600 px-3 py-1 rounded-full text-xs">Coding Bootcamps</span>
+      <span className="bg-teal-50 text-teal-600 px-3 py-1 rounded-full text-xs">Mentorship</span>
+      <span className="bg-teal-50 text-teal-600 px-3 py-1 rounded-full text-xs">Career Development</span>
+    </div>
+  </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <div className="flex items-center mb-4">
-                <div className="text-4xl text-teal-500 mr-4" />
-                <FaInnosoft className="text-4xl text-teal-500 mr-4" />
-                <h2 className="text-xl font-semibold text-gray-800">
-                  Innovation & Problem Solving
-                </h2>
-              </div>
-              <p className="text-gray-600">
-                Encouraging students to apply STEM skills to real-world
-                problems, fostering innovation.
-              </p>
-            </div>
+  <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300 flex flex-col h-full min-h-[250px]">
+    <div className="flex items-center mb-4">
+      <FaUsers className="text-5xl text-teal-500 mr-4" />
+      <h2 className="text-lg font-semibold text-gray-800">Youth Empowerment & Inclusion</h2>
+    </div>
+    <p className="text-gray-600 flex-grow">
+      Special focus on underrepresented groups, especially women and girls, to encourage
+      participation in STEM fields.
+    </p>
+  </div>
 
-          </div>
-        
-          <div className="flex justify-center items-center mt-16">
-            <div className="bg-white rounded-lg shadow-lg p-8 flex flex-col items-center text-center w-96">
-              <div className="flex items-center mb-4">
-                <FaHandshake className="text-5xl text-teal-500 mr-3" />
-                <h2 className="text-2xl font-semibold text-gray-800">
-                  Collaboration & Partnerships
-                </h2>
-              </div>
-              <p className="text-gray-600">
-                Partnering with schools, universities, tech companies, and
-                government agencies to build a comprehensive STEM ecosystem.
-              </p>
-            </div>
-          </div>
+  <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300 flex flex-col h-full min-h-[250px]">
+    <div className="flex items-center mb-4">
+      <FaInnosoft className="text-5xl text-teal-500 mr-4" />
+      <h2 className="text-lg font-semibold text-gray-800">Innovation & Problem Solving</h2>
+    </div>
+    <p className="text-gray-600 flex-grow">
+      Encouraging students to apply STEM skills to real-world problems, fostering innovation.
+    </p>
+  </div>
+
+  <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300 flex flex-col h-full min-h-[250px]">
+    <div className="flex items-center mb-4">
+      <FaHandshake className="text-5xl text-teal-500 mr-4" />
+      <h2 className="text-lg font-semibold text-gray-800">Collaboration & Partnerships</h2>
+    </div>
+    <p className="text-gray-600 flex-grow">
+      Partnering with schools, universities, tech companies, and government agencies
+      to build a comprehensive STEM ecosystem.
+    </p>
+  </div>
+</div>
+
         </div>
       </div>
 
